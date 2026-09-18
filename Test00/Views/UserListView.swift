@@ -149,3 +149,13 @@ struct UserListView: View {
     UserListView()
         .environment(SessionStore())
 }
+
+/*
+.task             → carga inicial
+.refreshable      → recarga
+.sheet            → crear o editar
+.swipeActions     → solicitar eliminación
+.alert            → error o confirmación
+.overlayDeCarga   → mostrar operación actual
+
+*/
