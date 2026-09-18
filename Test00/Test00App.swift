@@ -31,3 +31,30 @@ struct RootView: View {
         }
     }
 }
+
+
+/*
+View
+    ↓
+ViewModel
+    ↓
+Service
+    ↓
+HTTPClient
+    ↓
+RutaAPI
+    ↓
+Servidor
+
+
+
+Servidor
+    ↓
+HTTPClient decodifica
+    ↓
+Service adapta
+    ↓
+ViewModel actualiza estado
+    ↓
+View se redibuja
+*/
